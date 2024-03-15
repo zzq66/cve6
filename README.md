@@ -1,3 +1,9 @@
+NAME OF AFFECTED PRODUCT(S):lepton-cms 
+AFFECTED AND/OR FIXED VERSION(S):7.1.0
+PROBLEM TYPE:File Upload; 
+Impact:Arbitrary code execution; 
+DESCRIPTION:An arbitrary file upload vulnerability in LeptonCMS v7.1.0 allows authenticated attackers to execute arbitrary code via uploading a crafted PHP file.
+
 漏洞复现：
 首先去官网下载https://lepton-cms.org/english/home.php最新版本的cms。
 下载好配置好之后登录进入后台:
